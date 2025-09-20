@@ -623,31 +623,31 @@ export const COLORS: { [name: string]: Theme } = {
     DEFAULT_RANK_SHADOW: "#5e8c2a",
     DEFAULT_RANK_TEXT: "#5e8c2a",
   },
-   ocean_gradient: {
-    S_RANK_BASE: "url(#ocean-gradient)",  // reference to SVG gradient
-    S_RANK_FRAME: "#1CA7EC",
-    S_RANK_FONT: "#fff",
-    A_RANK_BASE: "#37D5D6",
-    A_RANK_FRAME: "#1CA7EC",
-    A_RANK_FONT: "#fff",
-    B_RANK_BASE: "#67B26F",
-    B_RANK_FRAME: "#37D5D6",
-    B_RANK_FONT: "#fff",
-    SECRET_RANK_BASE: "#004e92",
-    SECRET_RANK_FRAME: "#37D5D6",
-    SECRET_RANK_FONT: "#fff",
-    PANEL_BASE: "url(#ocean-gradient)",   // reference to SVG gradient
-    PANEL_FRAME: "#1CA7EC",
-    PANEL_FONT: "#fff",
-    PANEL_NAME_FONT: "#37D5D6",
-    PANEL_DESCRIPTION_FONT: "#004e92",
-    PANEL_SCORE_FONT: "#1CA7EC",
-    PANEL_ICON: "#fff",
-    PANEL_RANK_FONT: "#1CA7EC",
-    PANEL_BACKGROUND: "#004e92",
-    PANEL_BORDER: "#37D5D6",
+  negative: {
+    S_RANK_BASE: "#000000",      
+    S_RANK_FRAME: "#FFFFFF",   
+    S_RANK_FONT: "#FFFFFF",        
+    A_RANK_BASE: "#000000",
+    A_RANK_FRAME: "#FFFFFF",
+    A_RANK_FONT: "#FFFFFF",
+    B_RANK_BASE: "#000000",
+    B_RANK_FRAME: "#FFFFFF",
+    B_RANK_FONT: "#FFFFFF",
+    SECRET_RANK_BASE: "#000000",
+    SECRET_RANK_FRAME: "#FFFFFF",
+    SECRET_RANK_FONT: "#FFFFFF",
+    PANEL_BASE: "#000000",         
+    PANEL_FRAME: "#FFFFFF",       
+    PANEL_FONT: "#FFFFFF",        
+    PANEL_NAME_FONT: "#FFFFFF",   
+    PANEL_DESCRIPTION_FONT: "#FFFFFF",
+    PANEL_SCORE_FONT: "#FFFFFF",
+    PANEL_ICON: "#FFFFFF",        
+    PANEL_RANK_FONT: "#FFFFFF",
+    PANEL_BACKGROUND: "#000000",  
+    PANEL_BORDER: "#FFFFFF"     
   },
-    
+
 };
 
 export interface Theme {
