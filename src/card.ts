@@ -52,18 +52,6 @@ export class Card {
 
     const row = this.getRow(trophyList);
     this.height = this.getHeight(row);
-    const gradientDef = `
-  <defs>
-    <linearGradient id="ocean-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%">
-        <animate attributeName="stop-color" values="#004e92;#37D5D6;#1CA7EC;#004e92" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%">
-        <animate attributeName="stop-color" values="#1CA7EC;#004e92;#37D5D6;#1CA7EC" dur="6s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-  </defs>
-`;
     
     return `
     <svg
